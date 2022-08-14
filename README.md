@@ -6,8 +6,8 @@
 * [Problem Statement](#problem-statement)
 * [Business Goal](#business-goal)
 * [Dataset](#dataset-and-data-dictionary)
-* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#Contact)
 
