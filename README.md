@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Advanced-Regression-Assingment
+> This is Advance Regression assignment based on Housing price problem. Multiple models are used to identify the best model.
 
 
 ## Table of Contents
@@ -8,45 +8,47 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+## Problem Statement
+A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The company wants to know:
+	1. Which variables are significant in predicting the price of a house, and
+	2. How well those variables describe the price of a house.
+
+## Dataset and Data Dictionary
+The following files are present inside datasets folder:
+
+  - train.csv (dataset)
+	- Data Definition.txt
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Normal Regression is worst model due to negative R2 score
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Ridge and Lasso both have good performance over RFE.
+
+The optimal lambda value of Ridge and Lasso are below: Ridge - 1 Lasso - 0.0002
+
+The MSE of Ridge and Lasso are:
+
+Ridge - 0.125217 Lasso - 0.126049
+
+Also, since Lasso helps in feature reduction, Lasso has a better edge over Ridge.
+
+Best Variables to describe according to best algorithm Lasso hence are: OverallQual 0.520026 GrLivArea 0.448735 1stFlrSF 0.442132 MSZoning_RH 0.375424 MSZoning_FV 0.321321 MSZoning_RL 0.318949 OverallCond 0.317879 MSZoning_RM 0.256601 GarageCars 0.195930 Neighborhood_StoneBr 0.178402
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+  a. Python
+	b. matplotlib
+	c. seaborn
+	d. panda
+	e. numpy
+	f. sklearn
+	g. statsmodels
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by Rohitash Tulyani[https://github.com/rtulyani] - feel free to contact me!
